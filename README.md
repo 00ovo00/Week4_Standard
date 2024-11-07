@@ -234,3 +234,47 @@
     </ul>
   </div>
 </details>
+
+<details>
+    <summary><b> Q3. 숙련 7강, 8강, 17강</b></summary>
+    <div markdown="1">
+    <ul>
+
+**[요구사항 1]**
+
+**분석 문제** : 분석한 내용을 직접 작성하고, 강의의 코드를 다시 한번 작성하며 복습해봅시다.
+
+- 보간에 대해 학습하고 **선형보간(Lerp)**과 **구면선형보간(Slerp)**에 대해 학습해보세요.
+    
+    <aside>
+    
+     **선형보간(Lerp)**
+    
+    - 직선 상에 놓인 두 값 사이의 중간 값 계산하여 부드럽게 보간하는 방식
+    
+    **구면선형보간(Slerp)**
+    
+    - 구면 상의 두 점 사이의 곡선을 따라 보간하는 방식, 주로 회전에 사용
+    </aside>
+    
+- 근사값(`Mathf.Approximately`)을 사용하는 이유에 대해 학습해보세요.
+    
+    <aside>
+    
+    - 부동소수점 연산의 오차 범위를 보완하기 위해 아래와 같이 두 값이 매우 유사한 값인지 확인하는 Mathf.Approximately를 사용
+    - (1.0 == 10.0 / 10.0)는 항상 true를 보장하지 않음
+    
+    ```csharp
+    void Start()
+    {
+        if (Mathf.Approximately(1.0f, 10.0f / 10.0f))
+        {
+            print("The values are approximately the same");
+        }
+    }
+    ```
+    
+    </aside>
+    </ul>
+  </div>
+</details>
