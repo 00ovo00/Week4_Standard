@@ -125,7 +125,21 @@
         }
     }
     ```
-    </ul>
+
+    **[요구사항 2]**
+
+**확장 문제 :** 강의내용을 바탕으로 새로운 기능을 추가 구현해봅시다.
+
+- 새로운 자원을 만들고 새로운 자원채취 보상 아이템을 설정해보세요.
+<aside>
+
+Rock(Resource)를 Axe(자원 채취 아이템)으로 채집하면 Stone이 5개까지 나오고 Rock은 Destory
+
+</aside>
+
+![image](https://github.com/user-attachments/assets/2795d4b6-7514-484f-aa36-0d5500535b73)
+
+    
   </div>
 </details>
 
